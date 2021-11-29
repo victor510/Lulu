@@ -53,6 +53,10 @@ function setErrorFor(input, message) {
     formDiv.className = 'form_div'
   }, 3000);
 
+  setTimeout(() => {
+    form.className = 'form';
+  }, 1000);
+
 }
 
 function setSuccessFor(input, message) {

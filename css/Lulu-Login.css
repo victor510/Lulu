@@ -185,7 +185,7 @@ h1
     font-family: 'EncodeSansSC-Medium';
     font-weight: lighter;
     transition: .3s;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 /* === FORM BUTTON DESIGN === */
@@ -215,7 +215,7 @@ h1
 {
     top: -.2rem;
     left: .8rem;
-    color: var(--input-color-2);
+    color: var(--contrast-color);
     font-size: var(--small-font-size);
     font-weight: 500;
     z-index: 10;
@@ -450,6 +450,14 @@ small
   
    @-webkit-keyframes jello-vertical{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}40%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}50%{-webkit-transform:scale3d(.85,1.15,1);transform:scale3d(.85,1.15,1)}65%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}75%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes jello-vertical{0%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}30%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}40%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}50%{-webkit-transform:scale3d(.85,1.15,1);transform:scale3d(.85,1.15,1)}65%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}75%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
 
+
+.create-account
+{
+    text-decoration: underline;
+    color: var(--contrast-color);
+    position: absolute;
+    bottom: 5%;
+}
 
 /* === Responsive === */
 @media screen and (max-width: 515px) {
