@@ -10,6 +10,10 @@
   font-family: canaro;
   src: url(/fonts/Canaro-LightDEMO.ttf);
 }
+@font-face {
+  font-family: Aileron;
+  src: url(/fonts/Aileron-Heavy.otf);
+}
 :root
 {
     /* === colors === */
@@ -28,6 +32,7 @@
     --body-font: 'Baxello', sans-serif;
     --normal-font: 'canaro';
     --alternative-font: 'Encode Sans';
+    --input-font: 'Aileron';
     --normal-font-size: 1rem;
     --small-font-size: .85rem;
     --large-font-size: 3rem;
@@ -145,11 +150,11 @@ body
   border: none;
   border-bottom: 1px solid var(--border-color);
   color: var(--input-color);
-  font-weight: 600;
-  font-family: var(--alternative-font);
-  font-size: 14px;
+  font-weight: lighter;
+  font-family: var(--input-font);
+  font-size: 16px;
   background-color: transparent;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .form-label,
 .icons

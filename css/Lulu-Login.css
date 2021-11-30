@@ -10,6 +10,14 @@
     font-family: Encode sans;
     src: url(/fonts/EncodeSansSC-Regular.ttf);
 }
+@font-face {
+    font-family: Canaro;
+    src: url(/fonts/Canaro-LightDEMO.ttf);
+}
+@font-face {
+    font-family: Aileron;
+    src: url(/fonts/Aileron-Heavy.otf);
+}
 /* === Variables === */
 :root
 {
@@ -27,7 +35,8 @@
     /* == typography == */
     --body-font: 'Baxello', sans-serif;
     --normal-font: sans-serif;
-    --alternative-font: 'Encode Sans';
+    --alternative-font: 'Aileron';
+    --logo-font: 'Canaro';
     --normal-font-size: 1rem;
     --small-font-size: .85rem;
     --large-font-size: 3rem;
@@ -59,8 +68,8 @@ svg:hover
     top: 0;
     left: 50%;
     font-size:var(--large-font-size);
-    font-family: var(--body-font);
-    font-family: 'Baxello';
+    font-family: var(--logo-font);
+    font-weight: bold;
     letter-spacing: 5px;
     transform: translate(-50%);
     border-bottom: 1px solid var(--border-color);
@@ -182,8 +191,6 @@ h1
     color: var(--input-color);
     font-size: var(--normal-font-size);
     font-family: var(--alternative-font);
-    font-family: 'EncodeSansSC-Medium';
-    font-weight: lighter;
     transition: .3s;
     letter-spacing: 2px;
 }

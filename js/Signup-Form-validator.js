@@ -69,15 +69,15 @@ function setErrorFor(input, message) {
   formControl.className = 'form_div error';
   form.className = 'form error animate'
 
-  // resetting the classes
-  setTimeout(() => {
-    formDiv.className = 'form_div'
-  }, 3000);
-
 
   small.innerText = message;
 
   formControl.className = 'form-div error'
+
+  // resetting the classes
+  setTimeout(() => {
+    form.className = 'form';
+  }, 2000);
 }
 
 function setSuccessFor(input, message) {
