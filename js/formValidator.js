@@ -35,7 +35,7 @@ function checkInputs() {
   if(passwordValue && usernameValue) {
     animateFormSuccess();
     setTimeout(() => {
-      location.replace('/home.html')
+      location.replace('./home.html')
     }, 2000);
   }
 }

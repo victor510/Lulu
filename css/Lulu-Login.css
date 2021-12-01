@@ -1,22 +1,22 @@
 @font-face {
     font-family: Baxello;
-    src: url(/fonts/Baxello-2OOO8.ttf);
+    src: url(../fonts/Baxello-2OOO8.ttf);
 }
 @font-face {
     font-family: Encode sans;
-    src: url(/fonts/EncodeSansSC-Medium.ttf);
+    src: url(../fonts/EncodeSansSC-Medium.ttf);
 }
 @font-face {
     font-family: Encode sans;
-    src: url(/fonts/EncodeSansSC-Regular.ttf);
+    src: url(../fonts/EncodeSansSC-Regular.ttf);
 }
 @font-face {
     font-family: Canaro;
-    src: url(/fonts/Canaro-LightDEMO.ttf);
+    src: url(../fonts/Canaro-LightDEMO.ttf);
 }
 @font-face {
     font-family: Aileron;
-    src: url(/fonts/Aileron-Heavy.otf);
+    src: url(../fonts/Aileron-Heavy.otf);
 }
 /* === Variables === */
 :root
